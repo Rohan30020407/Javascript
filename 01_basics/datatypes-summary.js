@@ -55,3 +55,9 @@ console.log(typeof anotherId);//Symbol
 
 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Stack (Primitive),Heap (Non-Primitive)
+
+let myYoutubename = "RohanSonidotcom"
+
