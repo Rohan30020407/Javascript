@@ -57,7 +57,20 @@ console.log(typeof anotherId);//Symbol
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Stack (Primitive),Heap (Non-Primitive)
+// Stack (Primitive),Heap (Non-Primitive)
 
 let myYoutubename = "RohanSonidotcom"
+let anothername = myYoutubename
+ anothername = "RajaKiPraja"
+console.log(myYoutubename);
+console.log(anothername);
 
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email="RohanSoni@google.com"
+console.log(userOne.email)//object.value jo object k andar values hain unkobtata
+console.log(userTwo.email)
